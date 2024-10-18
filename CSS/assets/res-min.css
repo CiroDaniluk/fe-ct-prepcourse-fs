@@ -1,0 +1,124 @@
+@media(max-width:900px) {
+
+
+
+header {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.header_img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.header_li {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+.header_li li {
+    padding: 0;
+    margin: 0;
+}
+
+#first-section-container {
+    width: 100%;
+}
+
+.history {
+    width: 100%;
+    border: none;
+}
+
+.history h2 {
+    font-size: 2em;
+    padding: .5em;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.history p {
+    width: 100%;
+    padding: .5em;
+    margin: 0;
+}
+
+.images-container {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.images {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+}
+.images span {
+    display: none;
+}
+
+.images img {
+    width: 80%;
+}
+
+#second-section-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.trophies_header {
+    width: 100%;
+}
+
+.trophies_header h2 {
+    font-size: 2em;
+    padding: .5em;
+    margin: 0;
+    padding-bottom: .1em;
+}
+
+.trophies_container {
+    width: 100%;
+}
+
+.trophies_text {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.trophies_text p {
+    width: 100%;
+    padding: .7em;
+    text-size-adjust:initial;
+}
+
+.trophies_img {
+    display: none;
+}
+
+
+
+
+}

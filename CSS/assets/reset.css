@@ -1,0 +1,167 @@
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Eliminar bordes de todos los elementos */
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/* Eliminar decoración de enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Ajustar el tamaño de fuente base */
+html {
+    font-size: 100%;
+    line-height: 1.15;
+}
+
+/* Asegurar que los botones no tengan bordes ni fondo por defecto */
+button {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+/* Reiniciar estilo de las listas */
+ul, ol {
+    list-style: none;
+}
+
+/* Reset de imágenes para evitar problemas de escala */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Asegurar que los formularios se comporten de forma predecible */
+input, textarea, button, select {
+    font: inherit;
+}
+
+/* Eliminar decoraciones de campos de formularios */
+input[type='search']::-webkit-search-decoration,
+input[type='search']::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+/* Asegurar que el body ocupe todo el ancho y alto disponibles */
+html, body {
+    height: 100%;
+}
+
+/* Definir un estilo básico para el body */
+body {
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Restablecer tablas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Reset de elementos de encabezado
+
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Eliminar bordes de todos los elementos */
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/* Eliminar decoración de enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Ajustar el tamaño de fuente base */
+html {
+    font-size: 100%;
+    line-height: 1.15;
+}
+
+/* Asegurar que los botones no tengan bordes ni fondo por defecto */
+button {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+/* Reiniciar estilo de las listas */
+ul, ol {
+    list-style: none;
+}
+
+/* Reset de imágenes para evitar problemas de escala */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Asegurar que los formularios se comporten de forma predecible */
+input, textarea, button, select {
+    font: inherit;
+}
+
+/* Eliminar decoraciones de campos de formularios */
+input[type='search']::-webkit-search-decoration,
+input[type='search']::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+/* Asegurar que el body ocupe todo el ancho y alto disponibles */
+html, body {
+    height: 100%;
+}
+
+/* Definir un estilo básico para el body */
+body {
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Restablecer tablas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Reset de elementos de encabezado */
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: normal;
+}
+
+/* Evitar subrayado en los enlaces */
+a:focus {
+    outline: none;
+}
+
+/* Evitar estilos automáticos de los elementos que reciban focus */
+:focus {
+    outline: none;
+}

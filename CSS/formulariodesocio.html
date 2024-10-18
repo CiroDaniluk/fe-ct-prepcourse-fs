@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacete Socio</title>
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section>
+            <div id="section-container">
+                <div id="form-div">
+
+                    <form>
+                        <div class="form-container">
+                            <h1>Hacete Socio del Club Atlético Boca Juniors</h1>
+
+                            <fieldset class="fieldset-form personal-fieldset">
+                                <legend>Datos Personales</legend>
+
+                                <label for="name"><span>Nombre Completo</span>
+                                <input type="text" id="name" class="inputs-style personal-fieldset" placeholder="Matías Rodriguez" required>
+                                </label>
+
+                                <label for="dni"><span>DNI</span>
+                                <input type="number" id="dni" class="inputs-style personal-fieldset" placeholder="99999999" required>
+                                </label>
+
+                                <label for="birth"><span>Fecha de Nacimiento</span>
+                                <input type="date" id="birth" class="inputs-style personal-fieldset" required placeholder="DD/MM/AAAA">
+                                </label>
+
+                            </fieldset>
+
+                            <fieldset class="fieldset-form account-fieldset">
+                                <legend>Creá tu cuenta</legend>
+
+                                <label for="account-mail"><span>Mail</span>
+                                    <input type="email" class="inputs-style account-input" placeholder="nombre@ejemplo.com" required>
+                                </label>
+
+                                <label for="account-password"><span>Contraseña</span>
+                                    <input type="password" id="account-password" class="inputs-style account-input" placeholder="Contraseña" required>
+                                </label>
+
+                                <label for="password-confirm"><span>Confirmá tu contraseña</span>
+                                    <input type="password" id="password-confirm" class="inputs-style account-input" placeholder="Contraseña" required>
+                                </label>
+
+                                <label for="account-name"><span>Nombre de Usuario</span>
+                                    <input type="text" id="account-name" class="inputs-style account-input" placeholder="Hasbulla123" required>
+                                </label>
+
+                            </fieldset>
+
+                            <fieldset class="fieldset-form type-fieldset">
+                                <legend>Datos de Socio</legend>
+
+                                <label for="class-of-partner" class="type-class"><span>Tipo de Socio</span>
+                                    <select name="" id="class-of-partner" class="selects type-select" required>
+                                        <option value="" disabled selected hidden>Seleccioná una opción</option>
+                                        <option value="master">Socio Master</option>
+                                        <option value="pro">Socio Pro</option>
+                                        <option value="normal">Socio Normal</option>
+                                        <option value="adherente">Socio Adherente</option>
+                                    </select>
+                                </label>
+
+                                <label for="dni-photo1" class="type-class"><span>Cargá el frente de tu DNI</span>
+                                    <input type="file" id="dni-photo1" class="inputs-style type-fieldset-edit" required>
+                                </label>
+                                <label for="dni-photo2" class="type-class"><span>Cargá la parte de atrás de tu DNI</span>
+                                    <input type="file" id="dni-photo2" class="inputs-style type-fieldset-edit" required>
+                                </label>
+
+                                <label for="principal-photo" class="type-class"><span>Cargá la foto de perfil del carnet</span>
+                                    <input type="file" id="principal-photo" class="inputs-style type-fieldset-edit" required>
+                                </label>
+
+                            </fieldset>
+
+                            <div class="button-container">
+                                <button>Confirmar</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

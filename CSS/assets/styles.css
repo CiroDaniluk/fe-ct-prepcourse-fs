@@ -1,0 +1,279 @@
+body {
+margin: 0;
+font-family: sans-serif;
+}
+
+/*HEADER CSS*/
+
+header {
+    margin: 0;
+    width: 100%;
+    background-color: #14a;
+    box-sizing: border-box;
+    box-shadow: 0 0 30px 3px;
+}
+
+.img_boca {
+    box-sizing: border-box;
+    width: 15%;
+    transition: 0.5s;
+}
+
+.header_img {
+    box-sizing: border-box;
+    display: inline-flex;
+    width: 32%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.header {
+    box-sizing: border-box;
+    display: inline-flex;
+    width: 33%;
+    color: #ddd;
+    justify-content: center;
+    vertical-align: middle;
+    transition: 0.5s;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 2px 2px;
+}
+
+.header_li {
+    display: inline-flex;
+    justify-content: center;
+    margin: 0;
+    width: 33%;
+    padding: 0;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+ul {
+    display: inline-flex;
+    text-align: center;
+    font-size: 20px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.a_style {
+    color: rgb(235, 211, 1);
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 3px;
+    margin: 35px;
+    box-sizing: border-box;
+    max-height: 30px;
+    transition: 0.5s;
+}
+
+.a_style :hover {
+    transform: scale(1.1);
+    transition-duration: .3s;
+}
+
+li {
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-shadow: 0 0 25px;
+}
+
+
+/*Main CSS*/
+
+/*Section 1 CSS*/
+
+#first-section-container {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.history {
+    width: 85vw;
+    border-bottom: 3px solid #14a;
+    margin: 0;
+}
+
+.history h2 {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #000;
+    padding: 1em;
+    margin-bottom: 0;
+    padding-bottom: .5em;
+    text-decoration: underline;
+    padding-top: .5em;
+}
+
+.history p {
+    margin: 5em;
+    margin-top: 0;
+    margin-bottom: 2em;
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.images-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.images {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1em;
+    padding: 1em;
+}
+
+.image {
+    width: 50%;
+    border-radius: 2%;
+    box-shadow: 10px 10px 20px;
+    box-sizing: border-box;
+    border: 2px solid #14a;
+}
+.images span {
+    text-align: center;
+    width: 8em;
+    margin: auto;
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    color: #ddd;
+    border: 2px solid #14a;
+    padding: 2em;
+    border-radius: 10% 50% 50% 10%;
+    box-shadow: 4px 4px 30px 0;
+    background-color: #14a;
+    box-sizing: border-box;
+}
+
+/*Second Section*/
+
+#second-section-container {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.trophies_container {
+    width: 85vw;
+    margin: 0;
+    flex-direction: column;
+}
+
+.trophies_header {
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.trophies_header h2 {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #000;
+    padding: 1em;
+    margin-bottom: 0;
+    padding-bottom: .5em;
+    text-decoration: underline;
+    padding-top: .5em;
+}
+
+.trophies_img {
+    align-self: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.trophies_img img {
+    width: 30%;
+    justify-self: center;
+    padding: 0;
+    margin: 0;
+    border-radius: 2%;
+    box-shadow: 10px 10px 20px;
+    box-sizing: border-box;
+    border: 2px solid #14a;
+    margin-bottom: 3em;
+}
+
+.trophies_text {
+    margin: 5em;
+    margin-top: 0;
+    margin-bottom: 2em;
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*FOOTER*/
+
+#footer-container {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(235, 211, 1) ;
+    padding: 3em;
+}
+
+.footer_networks {
+    display: flex;
+    padding: .7em;
+    margin: 1.5em;
+    background-color: #14a;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px;
+    border-radius: 5%;
+}
+
+.footer_networks a {
+    padding: 0;
+    width: fit-content;
+    margin: 1em;
+}
+
+.footer_networks img {
+    width: 3em;
+    padding: 0;
+}
+
+.footer_networks img:hover {
+    transform: scale(1.08);
+    transition: .2s;
+}
+
+.copyright {
+    font-size: 1.2em;
+    font-style: oblique;
+    color: #000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
